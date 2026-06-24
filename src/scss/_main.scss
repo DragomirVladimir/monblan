@@ -1,10 +1,45 @@
 @use "./variables" as *;
 @use "./mixins" as *;
+@use "./breakpoints" as *;
 
 .wrapper {
   position: relative;
   width: 100%;
   height: 100%;
+
+  &::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 52%;
+    width: 48%;
+    height: 400px;
+    background-image: url("../assets/images/decor_top.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+
+    @include screen-media-max($hdScreenWidth) {
+      right: 56%;
+    }
+
+    @include screen-media-max($tabletScreenWidth) {
+      right: 60%;
+    }
+  }
+
+  &::after {
+    content: "";
+    position: fixed;
+    top: 50vh;
+    right: 0;
+    width: 210px;
+    height: 367px;
+    background-image: url("../assets/images/decor_bottom.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+  }
 }
 
 .icon {
@@ -15,9 +50,11 @@
 }
 
 .main {
+  position: relative;
   width: 100%;
   min-height: 100%;
   padding-top: var(--header-height);
+  z-index: 2;
 }
 
 .load-button {
