@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monblan Project</title>
+    <link rel="icon" type="image/png" href="/monblan/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/monblan/favicon.svg" />
+    <link rel="shortcut icon" href="/monblan/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/monblan/apple-touch-icon.png" />
+    <link rel="manifest" href="/monblan/site.webmanifest" />
+    <script type="module" crossorigin src="/monblan/assets/index-DGT_KydO.js"></script>
+    <link rel="stylesheet" crossorigin href="/monblan/assets/index-kGD0jGue.css">
+  </head>
+  <body>
+    <svg width="0" height="0" style="display: none">
+      <symbol viewBox="0 0 24 24" id="icon-calendar">
+        <path
+          d="M7 11H9V13H7V11ZM7 15H9V17H7V15ZM11 11H13V13H11V11ZM11 15H13V17H11V15ZM15 11H17V13H15V11ZM15 15H17V17H15V15Z"
+          fill="currentColor"
+        />
+        <path
+          d="M5 22H19C20.103 22 21 21.103 21 20V6C21 4.897 20.103 4 19 4H17V2H15V4H9V2H7V4H5C3.897 4 3 4.897 3 6V20C3 21.103 3.897 22 5 22ZM19 8L19.001 20H5V8H19Z"
+          fill="currentColor"
+        />
+      </symbol>
+      <symbol viewBox="0 0 24 24" id="icon-close">
+        <path
+          d="M17.6569 16.2426L13.4142 12L17.6569 7.75736L16.2426 6.34315L12 10.5858L7.75736 6.34315L6.34315 7.75736L10.5858 12L6.34315 16.2426L7.75736 17.6569L12 13.4142L16.2426 17.6569L17.6569 16.2426Z"
+          fill="currentColor"
+        />
+      </symbol>
+      <symbol viewBox="0 0 15 14" id="icon-heart">
+        <path
+          d="M5.95536e-08 4.05069C-9.22365e-05 3.51247 0.107097 2.97963 0.315302 2.48331C0.523508 1.98698 0.828553 1.53714 1.21261 1.16007C1.59667 0.782992 2.05203 0.486251 2.55209 0.287187C3.05215 0.0881223 3.58687 -0.00927256 4.125 0.000694555C4.76172 -0.00268682 5.39189 0.129297 5.97374 0.387898C6.55559 0.646498 7.07584 1.02581 7.5 1.50069C7.92416 1.02581 8.44441 0.646498 9.02626 0.387898C9.60811 0.129297 10.2383 -0.00268682 10.875 0.000694555C11.4131 -0.00927256 11.9479 0.0881223 12.4479 0.287187C12.948 0.486251 13.4033 0.782992 13.7874 1.16007C14.1714 1.53714 14.4765 1.98698 14.6847 2.48331C14.8929 2.97963 15.0001 3.51247 15 4.05069C15 8.06769 10.2157 11.1007 7.5 13.5007C4.79025 11.0804 5.95536e-08 8.07069 5.95536e-08 4.05069Z"
+          fill="currentColor"
+        />
+      </symbol>
+      <symbol viewBox="0 0 18 18" id="icon-comment">
+        <path
+          d="M16.5 3C16.5 2.175 15.825 1.5 15 1.5H3C2.175 1.5 1.5 2.175 1.5 3V12C1.5 12.825 2.175 13.5 3 13.5H13.5L16.5 16.5V3Z"
+          fill="currentColor"
+        />
+      </symbol>
+      <symbol viewBox="0 0 24 22" id="icon-list">
+        <rect x="0" y="0" width="6" height="6" fill="currentColor" />
+        <rect x="0" y="8" width="6" height="6" fill="currentColor" />
+        <rect x="0" y="16" width="6" height="6" fill="currentColor" />
+        <rect x="9" y="2" width="15" height="2" fill="currentColor" />
+        <rect x="9" y="10" width="15" height="2" fill="currentColor" />
+        <rect x="9" y="18" width="15" height="2" fill="currentColor" />
+      </symbol>
+      <symbol viewBox="0 0 22 22" id="icon-table">
+        <rect x="0" y="0" width="6" height="6" fill="currentColor" />
+        <rect x="8" y="0" width="6" height="6" fill="currentColor" />
+        <rect x="16" y="0" width="6" height="6" fill="currentColor" />
+        <rect x="0" y="8" width="6" height="6" fill="currentColor" />
+        <rect x="8" y="8" width="6" height="6" fill="currentColor" />
+        <rect x="16" y="8" width="6" height="6" fill="currentColor" />
+        <rect x="0" y="16" width="6" height="6" fill="currentColor" />
+        <rect x="8" y="16" width="6" height="6" fill="currentColor" />
+        <rect x="16" y="16" width="6" height="6" fill="currentColor" />
+      </symbol>
+    </svg>
+
+    <div class="bg-decor"></div>
+    <div class="posts-loader"></div>
+    <div class="wrapper">
+      <header class="header" id="header">
+        <div class="header__inner">
+          <div class="logo logo--desk">
+            <img
+              class="logo__img"
+              src="data:image/svg+xml,%3csvg%20width='138'%20height='138'%20viewBox='0%200%20138%20138'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M56.5%207.21688C64.235%202.75106%2073.765%202.75106%2081.5%207.21688L116.256%2027.2831C123.991%2031.7489%20128.756%2040.0021%20128.756%2048.9338V89.0662C128.756%2097.9979%20123.991%20106.251%20116.256%20110.717L81.5%20130.783C73.765%20135.249%2064.235%20135.249%2056.5%20130.783L21.7442%20110.717C14.0092%20106.251%209.24425%2097.9979%209.24425%2089.0662V48.9338C9.24425%2040.0021%2014.0092%2031.7489%2021.7442%2027.2831L56.5%207.21688Z'%20fill='white'/%3e%3cpath%20d='M128.756%2088.5317V89.0662C128.756%2097.9979%20123.991%20106.251%20116.256%20110.717L81.5%20130.783C73.765%20135.249%2064.235%20135.249%2056.5%20130.783L21.7442%20110.717C21.1716%20110.386%2020.6152%20110.035%2020.0758%20109.664L17.5%20101L26%2068L33.5%2056L55.5%2078.5L82.5%2038.5L128.756%2088.5317Z'%20fill='%23066C61'/%3e%3cpath%20d='M18.1726%20108.216C14.6282%20105.242%2011.9954%20101.354%2010.5392%2097.0093L10.5%2096.5C11.6667%2083.5%2016.7%2056.8%2027.5%2054C41.5%2050.3704%2048.5%2096.5%2048.5%2096.5C48.5%2096.5%2054.7204%2032.2562%2074%2033.5C89.5%2034.5%2095.5%2066.5%2091.5%20125L91.4793%20125.022L81.5%20130.783C78.1083%20132.741%2074.3715%20133.841%2070.5923%20134.082C77.5658%20121.943%2076.9064%2074.0186%2073.5%2056.5C71.5082%2062.0157%2069.939%2070.5009%2068.2456%2079.6575C64.4128%20100.382%2059.9439%20124.546%2048.5%20125.5C48.0761%20125.535%2047.6559%20125.513%2047.2396%20125.437L43.4536%20123.251C36.248%20116.272%2030.6804%2094.8558%2028.5%2083C28.103%2093.7195%2024.061%20105.982%2022.0451%20110.891L21.7442%20110.717C21.4834%20110.566%2021.2259%20110.411%2020.9718%20110.252L18.1726%20108.216Z'%20fill='%23B3DBC9'/%3e%3c/svg%3e"
+              alt="Monblan"
+            />
+          </div>
+          <div class="header__content">
+            <div class="header__top">
+              <h1 class="header__title">
+                <div class="logo logo--mob">
+                  <img
+                    class="logo__img"
+                    src="data:image/svg+xml,%3csvg%20width='138'%20height='138'%20viewBox='0%200%20138%20138'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M56.5%207.21688C64.235%202.75106%2073.765%202.75106%2081.5%207.21688L116.256%2027.2831C123.991%2031.7489%20128.756%2040.0021%20128.756%2048.9338V89.0662C128.756%2097.9979%20123.991%20106.251%20116.256%20110.717L81.5%20130.783C73.765%20135.249%2064.235%20135.249%2056.5%20130.783L21.7442%20110.717C14.0092%20106.251%209.24425%2097.9979%209.24425%2089.0662V48.9338C9.24425%2040.0021%2014.0092%2031.7489%2021.7442%2027.2831L56.5%207.21688Z'%20fill='white'/%3e%3cpath%20d='M128.756%2088.5317V89.0662C128.756%2097.9979%20123.991%20106.251%20116.256%20110.717L81.5%20130.783C73.765%20135.249%2064.235%20135.249%2056.5%20130.783L21.7442%20110.717C21.1716%20110.386%2020.6152%20110.035%2020.0758%20109.664L17.5%20101L26%2068L33.5%2056L55.5%2078.5L82.5%2038.5L128.756%2088.5317Z'%20fill='%23066C61'/%3e%3cpath%20d='M18.1726%20108.216C14.6282%20105.242%2011.9954%20101.354%2010.5392%2097.0093L10.5%2096.5C11.6667%2083.5%2016.7%2056.8%2027.5%2054C41.5%2050.3704%2048.5%2096.5%2048.5%2096.5C48.5%2096.5%2054.7204%2032.2562%2074%2033.5C89.5%2034.5%2095.5%2066.5%2091.5%20125L91.4793%20125.022L81.5%20130.783C78.1083%20132.741%2074.3715%20133.841%2070.5923%20134.082C77.5658%20121.943%2076.9064%2074.0186%2073.5%2056.5C71.5082%2062.0157%2069.939%2070.5009%2068.2456%2079.6575C64.4128%20100.382%2059.9439%20124.546%2048.5%20125.5C48.0761%20125.535%2047.6559%20125.513%2047.2396%20125.437L43.4536%20123.251C36.248%20116.272%2030.6804%2094.8558%2028.5%2083C28.103%2093.7195%2024.061%20105.982%2022.0451%20110.891L21.7442%20110.717C21.4834%20110.566%2021.2259%20110.411%2020.9718%20110.252L18.1726%20108.216Z'%20fill='%23B3DBC9'/%3e%3c/svg%3e"
+                    alt="Monblan"
+                  />
+                </div>
+                monblanproject
+              </h1>
+              <div class="header__badge">Start on 17-02-2016</div>
+            </div>
+            <ul class="statistic">
+              <li class="statistic__item"><strong>870</strong> posts</li>
+              <li class="statistic__item"><strong>11,787</strong> followers</li>
+              <li class="statistic__item"><strong>112</strong> following</li>
+            </ul>
+            <div class="filter">
+              <span class="filter__title">Date</span>
+              <div class="filter__inner">
+                <div class="filter__field js-date-from">
+                  <input
+                    class="filter__input"
+                    type="text"
+                    name="date-from"
+                    placeholder="From"
+                    data-input
+                    readonly
+                  />
+                  <button
+                    class="filter__clear"
+                    type="button"
+                    data-clear
+                    aria-label="Clear date"
+                  >
+                    <svg class="icon" aria-hidden="true">
+                      <use href="#icon-close" />
+                    </svg>
+                  </button>
+                  <button
+                    class="filter__toggle"
+                    type="button"
+                    data-toggle
+                    aria-label="Open calendar"
+                  >
+                    <svg class="icon" aria-hidden="true">
+                      <use href="#icon-calendar" />
+                    </svg>
+                  </button>
+                </div>
+                <div class="filter__field js-date-to">
+                  <input
+                    class="filter__input"
+                    type="text"
+                    name="date-to"
+                    placeholder="To"
+                    data-input
+                    readonly
+                  />
+                  <button
+                    class="filter__clear"
+                    type="button"
+                    data-clear
+                    aria-label="Clear date"
+                  >
+                    <svg class="icon" aria-hidden="true">
+                      <use href="#icon-close" />
+                    </svg>
+                  </button>
+                  <button
+                    class="filter__toggle"
+                    type="button"
+                    data-toggle
+                    aria-label="Open calendar"
+                  >
+                    <svg class="icon" aria-hidden="true">
+                      <use href="#icon-calendar" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="posts">
+          <div class="layout-switcher">
+            <button
+              class="layout-switcher__button js-set-list-type"
+              data-list-type="table"
+              type="button"
+            >
+              <svg class="icon" aria-hidden="true">
+                <use href="#icon-table" />
+              </svg>
+            </button>
+            <button
+              class="layout-switcher__button _active js-set-list-type"
+              data-list-type="list"
+              type="button"
+            >
+              <svg class="icon" aria-hidden="true">
+                <use href="#icon-list" />
+              </svg>
+            </button>
+          </div>
+
+          <ul class="posts-list" id="posts-list"></ul>
+
+          <div class="posts-loader" id="posts-loader"></div>
+
+          <button class="load-button" id="load-button" type="button">
+            LOAD MORE
+          </button>
+        </div>
+      </main>
+    </div>
+
+  </body>
+</html>
