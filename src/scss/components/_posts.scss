@@ -43,7 +43,7 @@
   align-items: center;
   gap: 20px;
   width: 100%;
-  min-width: 0;
+  min-width: fit-content;
   background-color: $color-white;
 
   .posts-list.table & {

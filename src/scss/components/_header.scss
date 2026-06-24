@@ -7,29 +7,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  // background-color: $color-global-bg;
   z-index: 100;
-
-  // &::before {
-  //   content: "";
-  //   position: absolute;
-  //   top: 0;
-  //   right: 52%;
-  //   width: 48%;
-  //   height: 480px;
-  //   background-image: url("../assets/images/decor_top.png");
-  //   background-size: 100% 100%;
-  //   background-repeat: no-repeat;
-  //   background-position: 100% 0;
-
-  //   @include screen-media-max($hdScreenWidth) {
-  //     right: 56%;
-  //   }
-
-  //   @include screen-media-max($tabletScreenWidth) {
-  //     right: 60%;
-  //   }
-  // }
 
   &__inner {
     position: relative;
@@ -79,6 +57,14 @@
     letter-spacing: -0.01em;
     font-family: $accent-font-family;
     text-transform: lowercase;
+
+    @include screen-media-max($tabletScreenWidth) {
+      font-size: 20px;
+    }
+
+    @include screen-media-max(540) {
+      font-size: 18px;
+    }
   }
 
   &__badge {
@@ -89,6 +75,15 @@
     font-size: 13px;
     letter-spacing: -0.03em;
     border-radius: 2px;
+
+    @include screen-media-max($tabletScreenWidth) {
+      font-size: 10px;
+    }
+
+    @include screen-media-max(540) {
+      padding: 6px;
+      font-size: 8px;
+    }
   }
 }
 
@@ -102,8 +97,9 @@
 
   &--mob {
     display: none;
-    width: 60px;
-    height: 60px;
+    width: 52px;
+    height: 52px;
+    min-width: 52px;
   }
 
   @include screen-media-max($tabletScreenWidth) {
