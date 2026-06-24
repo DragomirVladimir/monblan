@@ -10,7 +10,7 @@ function createPostHTML(post) {
   return `
     <li class="post">
       <div class="post__img">
-        <img src="${post.image}" alt="" loading="lazy" />
+        <img src="${import.meta.env.BASE_URL}${post.image}" alt="" loading="lazy" />
       </div>
       <div class="post__info">
         <div class="post__col">
@@ -87,7 +87,7 @@ export async function initRenderPosts() {
   setLoader(loader, true);
 
   try {
-    const res = await fetch('/src/data/posts.json');
+    const res = await fetch(import.meta.env.BASE_URL + 'data/posts.json');
     posts = await res.json();
     await delay(LOADER_DELAY);
   } catch (e) {

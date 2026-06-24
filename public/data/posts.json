@@ -7,7 +7,7 @@
     "todayComments": 3,
     "totalLikes": 284,
     "totalComments": 87,
-    "image": "/src/assets/images/posts/post_1.jpg"
+    "image": "assets/images/posts/post_1.jpg"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "todayComments": 1,
     "totalLikes": 8,
     "totalComments": 1,
-    "image": "/src/assets/images/posts/post_2.jpg"
+    "image": "assets/images/posts/post_2.jpg"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "todayComments": 5,
     "totalLikes": 21,
     "totalComments": 5,
-    "image": "/src/assets/images/posts/post_3.jpg"
+    "image": "assets/images/posts/post_3.jpg"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "todayComments": 0,
     "totalLikes": 176,
     "totalComments": 31,
-    "image": "/src/assets/images/posts/post_4.jpg"
+    "image": "assets/images/posts/post_4.jpg"
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "todayComments": 1,
     "totalLikes": 243,
     "totalComments": 67,
-    "image": "/src/assets/images/posts/post_5.jpg"
+    "image": "assets/images/posts/post_5.jpg"
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
     "todayComments": 0,
     "totalLikes": 512,
     "totalComments": 98,
-    "image": "/src/assets/images/posts/post_6.jpg"
+    "image": "assets/images/posts/post_6.jpg"
   },
   {
     "id": 7,
@@ -67,7 +67,7 @@
     "todayComments": 1,
     "totalLikes": 312,
     "totalComments": 58,
-    "image": "/src/assets/images/posts/post_7.jpg"
+    "image": "assets/images/posts/post_7.jpg"
   },
   {
     "id": 8,
@@ -77,7 +77,7 @@
     "todayComments": 0,
     "totalLikes": 891,
     "totalComments": 173,
-    "image": "/src/assets/images/posts/post_8.jpg"
+    "image": "assets/images/posts/post_8.jpg"
   },
   {
     "id": 9,
@@ -87,7 +87,7 @@
     "todayComments": 0,
     "totalLikes": 189,
     "totalComments": 42,
-    "image": "/src/assets/images/posts/post_9.jpg"
+    "image": "assets/images/posts/post_9.jpg"
   },
   {
     "id": 10,
@@ -97,7 +97,7 @@
     "todayComments": 0,
     "totalLikes": 467,
     "totalComments": 103,
-    "image": "/src/assets/images/posts/post_10.jpg"
+    "image": "assets/images/posts/post_10.jpg"
   },
   {
     "id": 11,
@@ -107,7 +107,7 @@
     "todayComments": 0,
     "totalLikes": 221,
     "totalComments": 55,
-    "image": "/src/assets/images/posts/post_11.jpg"
+    "image": "assets/images/posts/post_11.jpg"
   },
   {
     "id": 12,
@@ -117,7 +117,7 @@
     "todayComments": 1,
     "totalLikes": 784,
     "totalComments": 141,
-    "image": "/src/assets/images/posts/post_12.jpg"
+    "image": "assets/images/posts/post_12.jpg"
   },
   {
     "id": 13,
@@ -127,7 +127,7 @@
     "todayComments": 0,
     "totalLikes": 334,
     "totalComments": 79,
-    "image": "/src/assets/images/posts/post_13.jpg"
+    "image": "assets/images/posts/post_13.jpg"
   },
   {
     "id": 14,
@@ -137,7 +137,7 @@
     "todayComments": 0,
     "totalLikes": 103,
     "totalComments": 28,
-    "image": "/src/assets/images/posts/post_14.jpg"
+    "image": "assets/images/posts/post_14.jpg"
   },
   {
     "id": 15,
@@ -147,7 +147,7 @@
     "todayComments": 1,
     "totalLikes": 617,
     "totalComments": 189,
-    "image": "/src/assets/images/posts/post_15.jpg"
+    "image": "assets/images/posts/post_15.jpg"
   },
   {
     "id": 16,
@@ -157,7 +157,7 @@
     "todayComments": 0,
     "totalLikes": 940,
     "totalComments": 212,
-    "image": "/src/assets/images/posts/post_16.jpg"
+    "image": "assets/images/posts/post_16.jpg"
   },
   {
     "id": 17,
@@ -167,6 +167,6 @@
     "todayComments": 0,
     "totalLikes": 278,
     "totalComments": 53,
-    "image": "/src/assets/images/posts/post_17.jpg"
+    "image": "assets/images/posts/post_17.jpg"
   }
 ]
