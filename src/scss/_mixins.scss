@@ -1,0 +1,28 @@
+@mixin screen-media-max($screenWidth) {
+  @media only screen and (max-width: #{$screenWidth}px) {
+    @content;
+  }
+}
+
+@mixin screen-media-min($screenWidth) {
+  @media only screen and (min-width: #{$screenWidth}px) {
+    @content;
+  }
+}
+
+@mixin scrollbar-hidden {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@mixin hover {
+  @media (hover: hover) {
+    &:hover {
+      @content;
+    }
+  }
+}
