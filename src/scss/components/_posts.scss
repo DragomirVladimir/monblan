@@ -117,9 +117,11 @@
 
         .post__label {
           white-space: initial;
+          font-size: 14px;
         }
 
-        .post__stat-count {
+        .post__stat-count,
+        .post__upload-date {
           font-size: 12px;
           flex-shrink: 0;
         }
@@ -133,6 +135,14 @@
 
     @include screen-media-max($tabletScreenWidth) {
       font-size: 14px;
+    }
+  }
+
+  &__upload-date {
+    font-size: 14px;
+
+    @include screen-media-max($tabletScreenWidth) {
+      font-size: 12px;
     }
   }
 
